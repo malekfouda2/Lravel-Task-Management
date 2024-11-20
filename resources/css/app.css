@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Styling the container and sections */
 .container {
     margin-top: 30px;
 }
@@ -20,7 +19,6 @@
     font-size: 1.1rem;
 }
 
-/* Styling for the tasks table */
 .task-table {
     width: 100%;
     border-collapse: collapse;
@@ -51,7 +49,6 @@
     text-transform: uppercase;
 }
 
-/* Pagination styles */
 .pagination {
     display: flex;
     justify-content: center;

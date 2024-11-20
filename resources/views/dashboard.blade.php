@@ -4,7 +4,6 @@
 
 <div class="container">
     <div class="row">
-        <!-- Tasks Created by User -->
         <div class="col-md-6">
             <h3 class="section-title">Tasks Created by You</h3>
             <hr>
@@ -40,14 +39,12 @@
                     </tbody>
                 </table>
 
-                <!-- Pagination Links -->
                 <div class="pagination">
                     {{ $createdTasks->links('pagination::simple-default') }}
                 </div>
             @endif
         </div>
 
-        <!-- Tasks Assigned to User -->
         <div class="col-md-6">
             <h3 class="section-title">Tasks Assigned to You</h3>
             <hr>
@@ -83,7 +80,6 @@
                     </tbody>
                 </table>
 
-                <!-- Pagination Links -->
                 <div class="pagination">
                     {{ $assignedTasks->links('pagination::simple-default') }}
                 </div>

@@ -21,7 +21,7 @@ class TaskSeeder extends Seeder
         foreach ($users as $user) {
             Task::factory()->count(100)->create([
                 'user_id' => $user->id,
-                'assigned_to' => $user->id, // or assign to a random user
+                'assigned_to' => $user->id, 
             ]);
         }
     }
