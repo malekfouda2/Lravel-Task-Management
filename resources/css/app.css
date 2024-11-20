@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Styling the container and sections */
+.container {
+    margin-top: 30px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.empty-message {
+    color: #777;
+    font-size: 1.1rem;
+}
+
+/* Styling for the tasks table */
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.task-table th, .task-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.task-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.task-table tr:hover {
+    background-color: #e9ecef;
+}
+
+.task-table td strong {
+    color: #007bff;
+    text-transform: uppercase;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-link {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.pagination .page-link:hover {
+    background-color: #0056b3;
+}
